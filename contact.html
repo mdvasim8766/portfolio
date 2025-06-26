@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vasim portfolio...</title>
+	<link rel="icon"href="img/icon.png">
+    <link rel="stylesheet" type="text/css" href="css/Portfolio.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.2/js/bootstrap.min.js" integrity="sha512-HSNvqjhsAxRPvbSBEdXWlkR9uYmJtUvXEyfAvUzlA0uS5SyFZMZdczgz8oPWTz2NUEBaXkIYL4kdrBJkP66jYA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.2/css/bootstrap.min.css" integrity="sha512-SCpMC7NhtrwHpzwKlE1l6ks0rS+GbMJJpoQw/A742VaxdGcQKqVD8F/y/m9WLOfIPppy7mWIs/kS0bKgSI0Bfw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+	.navbar{
+		background: #524215;
+	}
+	#contactfile{
+		margin-top: 80px;
+	}
+</style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top col-xl-12 col-l-12 col-md-12 col-md-6">
+  <div class="container">
+    <a class="navbar-brand" href="home.html">
+    	<img src="img/logo.png"height="37"width="50">
+    	<p>asim</p>
+    </a>
+     	<button type="button"class="navbar-toggler"
+	 	data-toggle="collapse"data-target="#ab"id="b">
+	 		<span class="navbar-toggler-icon"></span>
+	 	</button>
+    <div class="collapse navbar-collapse" id="ab">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white"href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="service.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="portfo.html">Portfolio</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-white" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+<script>
+	const navEl = document.querySelector('.navbar');
+
+	window.addEventListener('scroll', () => {
+		if(window.scrollY >= 55) {
+           navEl.classList.add('navbar-scrolled');
+		}
+		else if(window.scrollY < 55){
+			navEl.classList.remove('navbar-scrolled');
+		}
+
+	});
+</script>
+
+<div class="container-fluid">
+
+
+	<div class="row">
+		<div class="col-xl-12 col-l-12 col-md-12 s-12 sm-12"id="contactfile">
+			<div class="row">
+				<div class=" col-xl-12 col-l-12 col-md-12 s-12 sm-12"id="contacttextbox">
+					<h2>Contact Me</h2>
+				</div>
+			</div>
+		  <div class="container">
+			<dizv class="row"id="contactbox">
+				<div class=" col-xl-4 col-l-4 col-md-4 s-12 sm-12 d-none d-sm-block d-sm-none d-md-block"id="contactbox1">
+					<div class="row">
+						<div class="col-md-11 mx-4 rounded"id="map">
+							<iframe class="rounded rounded-3 img-fluid"src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3501.5870513330733!2d77.1702858528848!3d28.6421361!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d029f5692b10f%3A0x57d3c924a8d28e13!2sArena%20Animation%20-%20Karol%20Bagh%20(Now%20Patel%20Nagar)!5e0!3m2!1sen!2sin!4v1681283097438!5m2!1sen!2sin" width="396" height="385" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+						</div>
+					</div>
+				</div>
+				<div class=" col-xl-8 col-l-8 col-md-8 s-12 sm-12 "id="contactbox2">
+				 <form name="a"onsubmit="valid()">
+					<div class="row">
+						<div class="col-xl-6 col-l-6 col-md-6 s-6 sm-6 mt-3 text-center "id="naambox">
+							<input type="text"placeholder="Your Name"id="naam"class="rounded img-fluid"name="nam">
+						</div>
+					<div class="col-xl-6 col-l-6 col-md-6 s-6 sm-6 mt-3 text-center"id="emailbox"onkeyup="check()">
+							<input type="text"placeholder="Your Email"id="email"class="rounded img-fluid"name="email">
+						</div>
+					</div>
+				 <div class="row">
+					 <div class="col-xl-6 col-l-6 col-md-6 s-6 sm-6 mt-3 text-center"id="nobox"class="rounded">
+						 <input type="text"placeholder="Mobile No."id="no"class="rounded img-fluid"name="no">
+					 </div>
+					 <div class="col-xl-6 col-l-6 col-md-6 s-6 sm-6 mt-3 text-center"id="orgbox"class="rounded">
+						 <input type="text"placeholder="Subject"id="org"class="rounded img-fluid"name="orgn">
+					 </div>
+				</div>
+				<div class="row">
+					<div class="col-xl-12 col-l-12 col-md-12 s-6 sm-6 mt-3 text-center"id="messbox">
+						<textarea class="comment rounded img-fluid"placeholder="Type Your Message"id="mess"name="message"></textarea>
+					</div>
+				</div>
+	
+				<div class="row">
+					<div class="col-md-12 s-12 sm-12 mt-3 text-center"id="sendbtn">
+						<button type="submit"class="btn btn">Submit</button>
+					</div>
+				</div>
+			</form>
+			  </div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center"id="de">
+					<p class="mt-2">Designed & Developed by : <a href="index.html">Vasim</a></p>
+				</div>
+			</div>
+		   </div>
+	</div>
+
+<script>
+   function check(){
+  	var e=document.a.email.value;
+  	if(e.indexOf("@")==-1){
+  		alert("pls fill email proper!")
+  	}
+
+
+  }
+
+
+
+
+  function valid(){
+		var n=document.a.nam.value;
+		var e=document.a.email.value;
+		var mob=document.a.no.value;
+		var o=document.a.orgn.value;
+		var m=document.a.message.value;
+
+		if(n==""){
+			alert("Name is empty !");
+		}
+		if(e==""){
+			alert("Email is empty !");
+		}
+		if(mob==""){
+			alert("Mobile no. is empty !");
+		}
+		if(o==""){
+			alert("Subject is empty !");
+		}
+		else{
+  	  alert("Sent message..");
+    }
+
+
+  }
+
+	
+</script>
+
+</div>
+</body>
+</html>

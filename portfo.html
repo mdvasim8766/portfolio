@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Vasim portfolio...</title>
+	<link rel="icon"href="img/icon.png">
+    <link rel="stylesheet" type="text/css" href="css/Portfolio.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.2/js/bootstrap.min.js" integrity="sha512-HSNvqjhsAxRPvbSBEdXWlkR9uYmJtUvXEyfAvUzlA0uS5SyFZMZdczgz8oPWTz2NUEBaXkIYL4kdrBJkP66jYA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.2/css/bootstrap.min.css" integrity="sha512-SCpMC7NhtrwHpzwKlE1l6ks0rS+GbMJJpoQw/A742VaxdGcQKqVD8F/y/m9WLOfIPppy7mWIs/kS0bKgSI0Bfw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js" integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<style>
+	.navbar{
+		background: #524215;
+	}
+	#portfoliofile{
+		margin-top: 80px;
+		height: 650px;
+	}
+</style>
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top col-xl-12 col-l-12 col-md-12 col-md-6">
+  <div class="container">
+    <a class="navbar-brand" href="home.html">
+    	<img src="img/logo.png"height="37"width="50">
+    	<p>asim</p>
+    </a>
+     	<button type="button"class="navbar-toggler"
+	 	data-toggle="collapse"data-target="#ab"id="b">
+	 		<span class="navbar-toggler-icon"></span>
+	 	</button>
+    <div class="collapse navbar-collapse" id="ab">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link text-white"href="home.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="service.html">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="portfo.html">Portfolio</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link text-white" href="contact.html">Contact</a>
+        </li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+<script>
+	const navEl = document.querySelector('.navbar');
+
+	window.addEventListener('scroll', () => {
+		if(window.scrollY >= 55) {
+           navEl.classList.add('navbar-scrolled');
+		}
+		else if(window.scrollY < 55){
+			navEl.classList.remove('navbar-scrolled');
+		}
+
+	});
+</script>
+
+<div class="container-fluid">
+
+	<div class="row">
+		<div class="col-xl-12 col-l-12 col-md-12 s-12 sm-12"id="portfoliofile">
+			<div class="row">
+				<div class="col-xl-12 col-l-12 col-md-12 s-12 sm-12"id="porfoliotextbox">
+					<h2>My Portfolio</h2>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-4 col-sm-10 col-s-6 sm-12 mx-4 rounded"id="protgrapbox">
+						<a href="graph.html"><img src="img/graph.png"height="420"width="435"class="img-fluid"></a>
+						<div class="row">
+							<div class="col-md-12"id="grapnbox">
+								<h2 class="mt-4">Graphics Portfolio</h2>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-10 col-s-6 mx-4 rounded"id="protwebbox">
+						<a href="web.html"><img src="img/web.png"height="400"width="435"class="img-fluid"></a>
+						<div class="row">
+							<div class="col-md-12"id="webnbox">
+								<h2 class="mt-4">Web Portfolio</h2>
+							</div>
+						</div>
+	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

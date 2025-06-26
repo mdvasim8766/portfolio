@@ -1,0 +1,1056 @@
+.navbar-dark .navbar-nav .nav-link{
+	font-size: 17px;
+	margin-left: 20px;
+	text-decoration: none;
+}
+.nav-link{
+    text-decoration: underline;
+    border-bottom:  2px solid #524215;
+	width: 0%;
+}
+.nav-link:hover{
+	text-decoration: underline;
+    border-bottom:  2px solid #FFBC2D;
+	width: 80%;
+	transition: all .5s;
+}
+#ab{
+	margin-left: 650px;
+}
+body,html{
+	margin: 0;
+	padding: 0;
+	scroll-behavior: smooth;
+}
+.container-fluid{
+	margin: 0px;
+	padding: 0px;
+}
+/*
+===============================
+     custom scrollbar
+===============================
+*/
+::-webkit-scrollbar{
+	width: 8px;
+  }
+  ::-webkit-scrollbar-track{
+	  background: whitesmoke;
+  } 
+  ::-webkit-scrollbar-thumb{
+	  background: linear-gradient(#E28703,#5F4700);
+	  border-radius: 10px;
+  }
+.navbar-scrolled{
+	background-color: #524215;
+	position: fixed;
+}
+.container-fluid{
+	margin: 0px;
+	padding: 0px;
+}
+
+.navbar-dark .navbar-brand{
+	color: white;
+	font-size: 22px;
+}
+.navbar-brand p{
+	font-size: 26px;
+	margin-left: 40px;
+	margin-top: -30px;
+	font-weight: bold;
+}
+
+#mainimgbox{
+	height: 98vh;
+	min-height: 500px;
+	background-size: cover;
+	background-image:url("bg.jpg");
+}
+#textobox{
+	height: 450px;
+	margin-top: -510px;
+}
+#namebox h3{
+	color: #f1f1f1;
+	text-align: justify;
+	text-shadow: 1px 1px 1px black;
+
+}
+
+
+#web{
+	color: #E8BD61;
+}
+#viewbox{
+	height: 70px;
+	margin-top: 10px;
+}
+#viewbox p{
+	font-size: 18px;
+	color: #f1f1f1;
+	line-height: 23px;
+	text-align: center;
+	line-height: 29px;
+	margin-top: 10px;
+}
+#iconbox{
+	height: 60px;
+	margin-top: 20px;
+}
+
+#iconbox i{
+    line-height: 42px;
+	margin-left: 10px;
+	border: 1px solid white;
+	height: 42px;
+	width: 43px;
+	border-radius: 50px;
+}
+#iconbox i:hover{
+	background: #B48211;
+}
+#btnbox{
+    height: 60px;
+    margin-top: 50px;
+}
+#btn{
+	height: 47px;
+	font-size: 19px;
+	margin-left: 50px;
+	border: 2px solid whitesmoke;
+	background-color: #B48211;
+	border-radius: 4px;
+}
+#btn a{
+	text-decoration: none;
+	color: white;
+}
+#btn:hover{
+border: 2px solid #efca79;
+	
+}
+
+
+
+
+#aboutfile{
+	height: 620px;
+	background: #F9EDDB;
+	min-height: 100px;
+}
+#abox{
+	height: 40px;
+	margin-top: 40px;
+}
+#abox h2{
+    font-size: 32px;
+    color: #383838;
+    text-align: center;
+    text-shadow: 3px 3px 5px solid white;
+}
+#abouttextbox{
+	height: 450px;
+	margin-top: 80px;
+}
+#namebox1{
+	height: 60px;
+}
+#namebox1 h2{
+	font-size: 40px;
+	color: #B48211;
+}
+#iam{
+	height: 70px;
+}
+#iam p{
+	font-size: 24px;	
+	color: #383838;
+}
+#dobbox{
+	height: 45px;
+}
+#dobbox strong{
+	font-size: 20px;
+	color: #3B3B3B;
+	margin-left: 5px;
+}
+#dobbox p{
+	font-size: 18px;
+	margin-left: 160px;
+	margin-top: -27px;
+    color: #464646;
+
+}
+
+#agebox{
+	height: 45px;
+}
+#agebox strong{
+	font-size: 20px;
+	color: #3B3B3B;
+	margin-left: 5px;
+}
+#agebox p{
+	font-size: 18px;
+	margin-left: 75px;
+	margin-top: -27px;
+	color: #464646;
+}
+#phnobox{
+	height: 45px;
+}
+#phnobox strong{
+	font-size: 20px;
+	color: #3B3B3B;
+	margin-left: 5px;
+}
+#phnobox p{
+	font-size: 18px;
+	margin-left: 125px;
+	margin-top: -27px;
+	color: #464646;
+}
+
+#mailbox{
+	height: 45px;
+
+}
+#mailbox strong{
+	font-size: 20px;
+	color: #3B3B3B;
+	margin-left: 5px;
+}
+#mailbox p{
+	font-size: 18px;
+	margin-left: 90px;
+	margin-top: -27px;
+	color: #464646;
+}
+#addressbox{
+	height: 45px;
+
+}
+#addressbox strong{
+	font-size: 20px;
+	color: #3B3B3B;
+	margin-left: 5px;
+}
+#addressbox p{
+	font-size: 18px;
+	margin-left: 115px;
+	margin-top: -27px;
+	color: #464646;
+}
+#aboutimgbox{
+	height: 500px;
+	margin-top: -120px;
+}
+
+
+#skillfile{
+	height: 330px;
+	background: whitesmoke;
+}
+#skibox{
+	height: 120px;
+}
+#skibox h2{
+	font-size: 32px;
+  color: #383838;
+  text-align: center;
+  margin-top: 40px;
+  text-shadow: 3px 3px 5px solid white;
+
+}
+#progressbox1{
+	height: 180px;
+}
+#progressbox2{
+	height: 200px;
+}
+.skill-bars .bar .progress-line{
+  height: 10px;
+  width: 100%;
+  background:#C6C6C6;
+  position: relative;
+  border-radius: 10px;
+  
+}
+@keyframes animate {
+  100%{
+    transform: scaleX(1);
+  }
+}
+.bar .progress-line span{
+  height: 100%;
+  position: absolute;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  background:linear-gradient(to left,#5F4700,#E28703);
+  animation: animate  1s forwards;
+}
+#t{
+	font-size: 15px;
+	font-weight: bold;
+	color: #5F4700;
+}
+#t:hover{
+	color: #BD7000;
+}
+#html{
+	height: 60px;
+}
+.bar .progress-line.html span{
+  width: 100%;
+}
+#css{
+	height: 60px;
+}
+.bar .progress-line.css span{
+  width: 90%;
+}
+#java{
+	height: 60px;
+}
+.bar .progress-line.java span{
+  width: 60%;
+}
+#query{
+	height: 60px;
+}
+.bar .progress-line.query span{
+  width: 70%;
+}
+#boots{
+	height: 60px;
+}
+.bar .progress-line.boots span{
+  width: 90%;
+}
+#xd{
+	height: 60px;
+}
+.bar .progress-line.xd span{
+  width: 100%;
+}
+
+
+
+
+#servicefile{
+	height: 910px;
+	background: #F9EDDB;
+}
+#servicetextbox{
+	height: 50px;
+	margin-top: 45px;
+}
+#servicetextbox h2{
+	font-size: 32px;
+    color: #383838;
+    text-align: center;
+}
+#servicebox1{
+	height: 740px;
+	margin-top: 10px;
+}
+
+
+#webbox{
+	box-shadow: 0px 0px 10px gray;
+}
+#webbox:hover{
+	border-color: #B48211;
+}
+#weblogobox{
+	height: 85px;
+	background: white;
+	box-shadow: 2px 2px 3px gray;
+}
+#webbox:hover #weblogobox{
+	background: #B48211;
+}
+#webbox:hover #weblogobox i{
+	color: white;
+}
+#weblogobox i{
+	color: #B48211;
+}
+#webnamebox{
+	height: 50px;
+	margin-top: 10px;
+}
+#webnamebox h4{
+	color: #393939;
+}
+#webtextbox{
+	height: 100px;
+}
+#webtextbox p{
+	font-size: 14px;
+	color: #1A1A1A;
+	text-align: center;
+}
+
+
+
+#uiuxbox{
+	box-shadow: 0px 0px 10px gray;
+}
+#uiuxbox:hover{
+	border-color: #B48211;
+
+}
+#uiuxlogobox{
+	height: 85px;
+	background: white;
+	box-shadow: 2px 2px 3px gray;
+}
+#uiuxbox:hover #uiuxlogobox{
+	background: #B48211;
+} 
+#uiuxbox:hover #uiuxlogobox i{
+	color: white;
+}
+#uiuxlogobox i{
+	color: #B48211;
+}
+#uiuxnamebox{
+	height: 50px;
+	margin-top: 10px;
+}
+#uiuxnamebox h4{
+	color: #393939;
+}
+#uiuxtextbox{
+	height: 100px;
+}
+#uiuxtextbox p{
+	font-size: 14px;
+	color: #1A1A1A;
+	text-align: center;
+}
+
+
+
+
+#resbox{
+	box-shadow: 0px 0px 10px gray;
+}
+#resbox:hover{
+	border-color: #B48211;
+}
+#resbox:hover #reslogobox{
+	background: #B48211;
+}
+#resbox:hover #reslogobox i{
+	color: white;
+}
+#reslogobox{
+	height: 85px;
+	background: white;
+	box-shadow: 2px 2px 3px gray;
+}
+#reslogobox i{
+	color: #B48211;
+}
+#resnamebox{
+	height: 50px;
+	margin-top: 10px;
+}
+#resnamebox h4{
+	color: #393939;
+}
+#restextbox{
+	height: 100px;
+}
+#restextbox p{
+	font-size: 14px;
+	color: #1A1A1A;
+	text-align: center;
+}
+
+
+
+#grapbox{
+	box-shadow: 0px 0px 10px gray;
+}
+#grapbox:hover{
+	border-color: #B48211;
+}
+#grapbox:hover #graplogobox{
+	background: #B48211;
+}
+#grapbox:hover #graplogobox i{
+	color: white;
+}
+#graplogobox{
+	height: 85px;
+	background: white;
+	box-shadow: 2px 2px 3px gray;
+}
+#graplogobox i{
+	color: #B48211;
+}
+#grapnamebox{
+	height: 50px;
+	margin-top: 10px;
+}
+#grapnamebox h4{
+	color: #393939;
+}
+#graptextbox{
+	height: 100px;
+}
+#graptextbox p{
+	font-size: 14px;
+	color: #1A1A1A;
+	text-align: center;
+}
+
+
+
+#appbox{
+	box-shadow: 0px 0px 10px gray;
+}
+#appbox:hover{
+	border-color: #B48211;
+}
+#appbox:hover #applogobox{
+	background: #B48211;
+}
+#appbox:hover #applogobox i{
+	color: white;
+}
+#applogobox{
+	height: 85px;
+	background: white;
+	box-shadow: 2px 2px 3px gray;
+}
+#applogobox i{
+	color: #B48211;
+}
+#appnamebox{
+	height: 50px;
+	margin-top: 10px;
+}
+#appnamebox h4{
+	color: #393939;
+}
+#apptextbox{
+	height: 120px;
+}
+#apptextbox p{
+	font-size: 14px;
+	color: #1A1A1A;
+	text-align: center;
+}
+
+
+#logobox{
+	box-shadow: 0px 0px 10px gray;
+}
+#logobox:hover{
+	border-color: #B48211;
+}
+#logobox:hover #logologobox{
+	background: #B48211;
+}
+#logobox:hover #logologobox i{
+	color: white;
+}
+#logologobox{
+	height: 85px;
+	background: white;
+	box-shadow: 2px 2px 3px gray;
+}
+#logologobox i{
+	color: #B48211;
+}
+#logonamebox{
+	height: 50px;
+	margin-top: 10px;
+}
+#logonamebox h4{
+	color: #393939;
+}
+#logotextbox{
+	height: 100px;
+}
+#logotextbox p{
+	font-size: 14px;
+	color: #1A1A1A;
+	text-align: center;
+}
+
+
+
+
+
+.portfoliofile{
+	height: 800px;
+	background: whitesmoke;
+}
+#porfoliotextbox{
+	height: 50px;
+	margin-top: 40px;
+}
+#porfoliotextbox h2{
+	font-size: 32px;
+    color: #383838;
+    text-align: center;
+}
+#protgrapbox{
+	height: 480px;
+	background: white;
+	margin-top: 35px;
+	box-shadow: 2px 2px 5px gray;
+	overflow: hidden;
+}
+#grapnbox{
+	height: 100px;
+	background: #7d6c42;
+	position: relative;
+	margin-top: 30px;
+}
+#grapnbox h2{
+	font-size: 27px;
+    color: white;
+    text-align: center;
+}
+
+#protgrapbox img{
+	transition: transform 0.20s;
+
+}
+#protgrapbox:hover img{
+  transform: scale(1.06);
+}
+
+#protgrapbox:hover{
+	border: 3px solid #B48211;
+}
+#protwebbox{
+	height: 480px;
+	background: white;
+	margin-top: 35px;
+	box-shadow: 2px 2px 5px gray;
+	overflow: hidden;
+
+}
+#webnbox{
+	height: 100px;
+	background: #7d6c42;
+	position: relative;
+	margin-top: 19px;
+}
+#webnbox h2{
+	font-size: 27px;
+    color: white;
+    text-align: center;
+}
+
+#protwebbox img{
+	transition: transform 0.20s;
+}
+#protwebbox:hover img{
+	transform: scale(1.06);
+}
+#protwebbox:hover{
+	border: 3px solid #B48211;
+}
+#pgnamebox{
+	height: 50px;
+	background: gray;
+}
+#pwnamebox{
+	height: 50px;
+	background: red;
+}
+
+
+
+
+
+#contactfile{
+	height: 640px;
+	background: #F9EDDB;
+	margin-top: 50px;
+}
+#contacttextbox{
+	height: 50px;
+	margin-top: 35px;
+}
+#contacttextbox h2{
+	font-size: 32px;
+    color: #383838;
+    text-align: center;
+}
+#contactbox{
+	margin-top: 30px;
+}
+#contactbox1{
+	height: 480px;
+	background: #FAF1E2;
+	border-radius: 8px 0px 0px 8px;
+	box-shadow: 0px 3px 5px gray;
+}
+#map{
+	height: 385px;
+	margin-top: 41px;
+}
+#map iframe{
+	height: 400px;
+	margin-left: -12px;
+	box-shadow: 2px 2px 5px gray;
+}
+#contactbox2{
+	height: 480px;
+	background: #FAF1E2;
+	border-radius: 0px 8px 8px 0px;
+	padding-top: 25px;
+	box-shadow: 3px 3px 5px gray;
+}
+#naambox{
+	height: 60px;
+}
+#naam{
+	height: 43px;
+	width: 380px;
+	border: none;
+	padding-left: 20px;
+	font-size: 15px;
+	padding-bottom: 4px;
+	border-bottom: 3px solid #a17309;
+
+}
+
+#emailbox{
+	height: 60px;
+
+}
+#email{
+	height: 43px;
+	width: 380px;
+	border: none;
+	padding-left: 20px;
+	font-size: 15px;
+	padding-bottom: 4px;
+	border-bottom: 3px solid #a17309;
+
+}
+#nobox{
+	height: 60px;
+}
+#no{
+	height: 43px;
+	width: 380px;
+	border: none;
+	padding-left: 20px;
+	font-size: 15px;
+	padding-bottom: 4px;
+	border-bottom: 3px solid #a17309;
+
+}
+#orgbox{
+	height: 60px;
+}
+#org{
+	height: 43px;
+	width: 380px;
+	border: none;
+	padding-left: 20px;
+	font-size: 15px;
+	padding-bottom: 4px;
+	border-bottom: 3px solid #a17309;
+}
+#messbox{
+	height: 180px;
+}
+#mess{
+	width: 810px;
+	height: 150px;
+	border: none;
+	padding-left: 20px;
+	font-size: 15px;
+	border-bottom: 3px solid #a17309;
+}
+#sendbtn{
+	height: 60px;
+}
+#sendbtn button{
+	height: 45px;
+	width: 120px;
+	color: white;
+	font-size: 18px;
+	background:linear-gradient(to left,#cd7b01,#413101);
+}
+#sendbtn button:hover{
+	background:linear-gradient(to left,#E28703,#5F4700);
+}
+::placeholder{
+	color: #a3a3a3;
+}
+#de{
+	height: 45px;
+	background-color: #524215;
+
+}
+#de p{
+	font-size: 17px;
+	color: white;
+}
+#de a{
+	text-decoration: none;
+	color: #FFF6BA;
+}
+
+
+
+
+
+
+/*--------------mobile phones-------------*/
+
+@media (min-width: 350px) and (max-width: 670px) {
+	.navbar-brand img{
+		margin-top: 15px;
+	}
+	.navbar{
+		height: 80px;
+	}
+.skillfile{
+	height: 1200px;
+}
+#servicefile{
+	height: 2050px;
+}
+#portfoliofile{
+	height: 3000px;
+}
+#webnbox{
+	display: none;
+}
+#grapnbox{
+	display: none;
+}
+#contactfile{
+	height: 750px;
+	margin-top: 50px;
+}
+#contactbox2{
+	height: 600px;
+}
+
+}
+
+
+
+
+
+/*--------------tablets and ipads-----------*/
+
+
+
+@media screen and (min-width:768px){
+	.navbar-brand img{
+		margin-top: 15px;
+	}
+	.navbar{
+		height: 90px;
+	}
+#aboutfile{
+	height: 580px;
+}	
+#aboutimgbox {
+	margin-top: 50px;
+}
+#servicefile{
+	height: 900px;
+}
+
+#weblogobox{
+	height: 80px;
+	width: 80px;
+	background: white;
+	box-shadow: 2px 2px 3px gray;
+}
+#uiuxlogobox{
+	height: 80px;
+	width: 80px;
+	background: white;
+	box-shadow: 2px 2px 3px gray;
+}
+#reslogobox{
+	height: 85px;
+	width: 80px;
+	background: white;
+	box-shadow: 2px 2px 3px gray;
+}
+#graplogobox{
+	height: 85px;
+	width: 80px;
+	background: white;
+	box-shadow: 2px 2px 3px gray;
+}
+#grapnbox{
+    margin-top: -10px;
+}
+#applogobox{
+	height: 85px;
+	width: 80px;
+	background: white;
+	box-shadow: 2px 2px 3px gray;
+}
+#logologobox{
+	height: 85px;
+	width: 80px;
+	background: white;
+	box-shadow: 2px 2px 3px gray;
+}
+#webnamebox h4{
+	font-size: 20px;
+}
+#webtextbox p{
+	font-size: 13px;
+}
+#uiuxnamebox h4{
+	font-size: 20px;
+}
+#uiuxtextbox p{
+	font-size: 12px;
+}
+#resnamebox h4{
+	font-size: 18px;
+}
+#restextbox p{
+	font-size: 12px;
+	margin-top: 10px;
+}
+#grapnamebox h4{
+	font-size: 18px;
+}
+#graptextbox p{
+	font-size: 12px;
+}
+#appnamebox h4{
+	font-size: 18px;
+}
+#apptextbox p{
+	font-size: 12px;
+}
+#logonamebox h4{
+	font-size: 18px;
+}
+#logotextbox p{
+	font-size: 12px;
+}
+#skillfile{
+	height: 350px; 
+	background-color: whitesmoke;
+}
+#namebox h3{
+	font-size: 40px;
+	color: #f1f1f1;
+	text-align: justify;
+	text-shadow: 1px 1px 1px black;
+
+}
+#portfoliofile{
+	height: 800px;
+	background: whitesmoke;
+}
+#grapnbox{
+	height: 80px;
+	margin-top: -20px;
+}
+#webnbox{
+	height: 80px;
+}
+#grapnbox h2{
+	font-size: 24px;
+}
+#webnbox h2{
+  font-size: 24px;
+}
+#contactfile{
+	height: 640px;
+}
+#contactbox2{
+	height: 480px;
+	border-radius: 0px 8px 8px 0px;
+	padding-top: 25px;
+}
+#mess{
+	height: 150px;
+	padding-left: 20px;
+	font-size: 19px;
+}
+
+}
+
+
+/*-----------------desktop and loptop---------------*/
+
+@media screen and (max-width:1024px){
+	#h{
+		margin-left: -340px;
+	}
+	#a{
+		margin-left: -260px;
+	}
+	#s{
+		margin-left: -180px;
+	}
+	#p{
+		margin-left: -80px;
+	}
+#namebox h3{
+ font-size: 50px;
+ margin-top: 50px;
+}
+#portfoliofile{
+	height: 570px;
+}
+#protgrapbox{
+	height: 350px;
+}
+#protwebbox{
+	height: 350px;
+}
+#webnbox{
+	margin-top: 9px;
+}
+#weblogobox{
+	width: 80px;
+	height: 80px;
+}
+#uiuxlogobox{
+	width: 80px;
+	height: 80px;
+}
+#reslogobox{
+	width: 80px;
+	height: 80px;
+
+}
+#graplogobox{
+	width: 80px;
+	height: 80px;
+
+}
+#applogobox{
+	width: 75px;
+	height: 80px;
+
+}
+#logologobox{
+  width: 80px;
+	height: 80px;
+
+}
+
+
+}

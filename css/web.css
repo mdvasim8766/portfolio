@@ -1,0 +1,167 @@
+body,html{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.navbar{
+	background: #524215;
+}
+.navbar-dark .navbar-nav .nav-link{
+	font-size: 17px;
+	margin-left: 20px;
+	margin-top: -5px;
+	text-decoration: none;
+}
+.nav-link{
+    text-decoration: underline;
+    border-bottom:  2px solid #524215;
+	width: 0%;
+}
+.nav-link:hover{
+	text-decoration: underline;
+    border-bottom:  2px solid #FFBC2D;
+	width: 80%;
+	transition: all .5s;
+}
+.navbar-scrolled{
+	background-color: #524215;
+	position: fixed;
+}
+.navbar-dark .navbar-brand{
+	color: white;
+	font-size: 22px;
+}
+.navbar-brand p{
+	font-size: 26px;
+	margin-left: 40px;
+	margin-top: -30px;
+	font-weight: bold;
+}
+.navbar-brand img{
+	margin-top: 10px;
+}
+#webimgbox1{
+	height: auto;
+	background: #FFF2E0;
+	margin-top: 80px;
+}
+#namebox{
+	height: 50px;
+}
+#namebox h2{
+	font-size: 32px;
+    color: #383838;
+    text-align: center;
+}
+#webimgbox2{
+	height: 1500px;
+}
+
+#a{
+	height: 480px;
+}
+
+#b{
+	height: 480px;
+}
+
+#c{
+	height: 510px;
+}
+
+#d{
+	height: 510px;
+}
+
+#e{
+	height: 400px;
+}
+
+#f{
+	height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 350px) and (max-width: 670px) {
+#webimgbox1{
+height: auto;
+
+}
+#webimgbox2{
+	height: auto;
+}
+
+#a{
+	height: 230px;
+}
+
+#b{
+	height: 230px;
+}
+
+#c{
+	height: 250px;
+}
+
+#d{
+	height: 250px;
+}
+
+#e{
+	height: 200px;
+}
+
+#f{
+	height: 200px;
+}
+
+}
+
+
+
+
+
+@media screen and (max-width:1024px){
+#webimgbox1{
+height: 1200px;
+
+}
+#webimgbox2{
+	height: 1050px;
+}
+
+#a{
+	height: 330px;
+}
+
+#b{
+	height: 330px;
+}
+
+#c{
+	height: 350px;
+}
+
+#d{
+	height: 350px;
+}
+
+#e{
+	height: 330px;
+}
+
+#f{
+	height: 330px;
+}
+
+}

@@ -1,0 +1,176 @@
+body,html{
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+.navbar{
+	background: #524215;
+}
+.navbar-dark .navbar-nav .nav-link{
+	font-size: 17px;
+	margin-left: 20px;
+	margin-top: -5px;
+	text-decoration: none;
+}
+.nav-link{
+    text-decoration: underline;
+    border-bottom:  2px solid #524215;
+	width: 0%;
+}
+.nav-link:hover{
+	text-decoration: underline;
+    border-bottom:  2px solid #FFBC2D;
+	width: 80%;
+	transition: all .5s;
+}
+.navbar-scrolled{
+	background-color: #524215;
+	position: fixed;
+}
+.navbar-dark .navbar-brand{
+	color: white;
+	font-size: 22px;
+}
+.navbar-brand p{
+	font-size: 26px;
+	margin-left: 40px;
+	margin-top: -30px;
+	font-weight: bold;
+}
+.navbar-brand img{
+	margin-top: 10px;
+}
+#portfoliofile{
+	margin-top: 80px;
+}
+#graphimgbox1{
+	height: auto;
+	background: #FFF2E0;
+	margin-top: 80px;
+}
+#namebox{
+	height: 50px;
+}
+#namebox h2{
+	font-size: 32px;
+    color: #383838;
+    text-align: center;
+}
+#graphimgbox2{
+	height: auto;
+}
+#a{
+	height: 380px;
+}
+#a img{
+	overflow: hidden;
+}
+#b{
+	height: 380px;
+
+}
+#c{
+	height: 560px;
+}
+#d{
+	height: 560px;
+}
+#e{
+	height: 380px;
+}
+#f{
+	height: 380px;
+}
+
+@media (min-width: 350px) and (max-width: 670px) {
+	#graphimgbox1{
+		height: auto;
+		margin-top: 65px;
+	}
+	
+	#graphimgbox2{
+		height: auto;
+
+	}
+
+}
+
+
+
+
+@media screen and (max-width:768px){
+	.navbar{
+		height: 90px;
+	}
+#graphimgbox1{
+	height: 500px;
+	margin-top: 65px;
+}
+
+#graphimgbox2{
+	height: 500px;
+}
+#a{
+	height: 200px;
+
+}
+#b{
+	height: 200px;
+}
+#c{
+	height: 280px;
+}
+#d{
+	height: 280px;
+}
+#e{
+	height: 190px;
+}
+#f{
+	height: 190px;
+
+}
+
+
+}
+
+
+
+@media screen and (max-width:1024px){
+#graphimgbox1{
+	height: 1150px;
+}
+
+#graphimgbox2{
+	height: 1050px;
+}
+#a{
+	height: 270px;
+}
+#b{
+	height: 270px;
+
+}
+#c{
+	height: 400px;
+
+}
+#d{
+	height: 400px;
+
+}
+#e{
+	height: 270px;
+
+}
+#f{
+	height: 270px;
+
+}
+
+
+
+
+}
+
